@@ -15,6 +15,10 @@ def my_find(collection)
   end 
   i += 1 
 end 
-return solution.join(' ')
+if(solution.empty?)
+  return nil 
+else 
+  return solution 
+end
 
 end
