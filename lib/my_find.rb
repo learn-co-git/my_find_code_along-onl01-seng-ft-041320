@@ -2,11 +2,11 @@ require 'pry'
 
 def my_find(collection)
   solution = []
-  i = 0 
-  while i < collection.length 
-  value = yield(collection[i][i]) 
+  i = 2 
+  while i < 100 
+  value = yield(i) 
   if(value == true)
-    solution << collection[i][i] 
+    solution << i
   end
   i += 1 
 end 
