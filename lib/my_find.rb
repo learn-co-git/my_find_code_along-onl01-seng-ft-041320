@@ -1,6 +1,11 @@
 require 'pry'
 
 def my_find(collection)
-puts collection.join('') 
+i = 0 
+while i < collection.length 
+yield(collection[i].to_i)
+i += 1 
+end 
+
 
 end
