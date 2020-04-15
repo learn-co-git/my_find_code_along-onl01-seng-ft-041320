@@ -13,5 +13,5 @@ end
   if(solution.empty?)
     return nil 
   else 
-    solution
+    solution.join(' ')
 end
