@@ -1,8 +1,11 @@
 require 'pry'
 
 def my_find(collection)
+  if(collection.length == nil)
+    return nil 
+  end 
   solution = []
-  i = 2 
+  i = 1 
   while i < 100 
   value = yield(i) 
   if(value == true)
