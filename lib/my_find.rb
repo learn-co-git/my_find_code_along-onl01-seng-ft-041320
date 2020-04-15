@@ -14,4 +14,5 @@ end
     return nil 
   else 
     solution.join(' ')
+  end
 end
