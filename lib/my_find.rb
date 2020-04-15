@@ -16,6 +16,6 @@ end
   if(solution.empty?)
     return nil 
   else 
-    return solution.join(' ')
+    return solution.join(' ').
   end
 end
