@@ -4,9 +4,9 @@ def my_find(collection)
   solution = []
   i = 0 
   while i < collection.length 
-  value = yield(collection[i]) 
+  value = yield(collection(i)) 
   if(value == true)
-    solution << collection[i] 
+    solution << collection(i) 
   end
   i += 1 
 end 
