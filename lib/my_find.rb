@@ -1,6 +1,6 @@
 require 'pry'
 
 def my_find(collection)
-puts collection 
+puts collection.join('') 
 
 end
