@@ -13,6 +13,6 @@ end
   if(solution.empty?)
     return nil 
   else 
-    solution.join(' ')
+    return solution.join(' ')
   end
 end
