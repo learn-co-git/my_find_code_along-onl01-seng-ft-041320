@@ -10,5 +10,8 @@ def my_find(collection)
   end
   i += 1 
 end 
-  solution
+  if(solution.empty?)
+    return nil 
+  else 
+    solution
 end
